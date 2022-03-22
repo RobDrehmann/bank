@@ -1,0 +1,269 @@
+.Sidebar{
+  border-right: solid;
+  background-color: #204E4A;
+  border-color: #ECBA82;
+  text-align: left;
+  background-color: #204E4A;
+  width: 17vw;
+  padding-top: 0px;
+  margin-top: 0px;
+  height: 92vh;
+}
+.Sidebar_banks_form_false{
+ display: none;
+}
+.Sidebar_banks_form_true{
+  border: none;
+  color: #ECBA82;
+  height: 5vh;
+  margin:0px;
+  font-size: 3vh;
+  padding-top: 1vh;
+  text-align: center;
+}
+.Sidebar_banks_form_true > button:hover{
+  cursor: pointer;
+  background-color: #ECBA82;
+  color: #204E4A;
+
+}
+.Sidebar_banks_form_true > button{
+background-color: #204E4A;
+border: solid;
+border-width: 1px;
+border-radius: 7px;
+
+margin-top: 0px;
+height: 4vh;
+width: 5vw;
+color: #ECBA82;
+border-color:#ECBA82;
+}
+.Sidebar_banks_form_true > input{
+  border: solid;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  border-color: darkgrey;
+  border-width: 1.5px;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 7px;
+  font-size: 1.5vw;
+  width: 5vw;
+  font-weight: bold;
+  color: darkgrey;
+}
+.Sidebar_banks_single_true{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   background-color: #373E40;
+
+
+}
+
+.Sidebar_banks_single_false > .MuiSvgIcon-root{
+ height: 2vw;
+ width: 2vw;
+ color: #ECBA82;
+
+
+
+}
+.Sidebar_banks_single_true > .MuiSvgIcon-root{
+  height: 2vw;
+  width: 2vw;
+  transform: rotate(90deg);
+ color: #ECBA82;
+
+
+
+}
+.Sidebar_banks_single_true > .MuiSvgIcon-root:hover{
+ cursor: pointer;
+  border-radius: 99px;
+  background-color: #ECBA82;
+ color: #373E40;
+
+
+
+}
+.Sidebar_banks_single_true > h3{
+
+  border: none;
+  color: #ECBA82;
+  border-color: #ECBA82; /*gold*/
+  border-width: 3px;
+  height: 5vh;
+  margin:0px;
+  font-size: 3vh;
+  padding-top: 1vh;
+  text-align: center;
+  width: 15vw;
+  overflow: hidden;
+  max-height: 4.5vh;
+
+
+}
+.Sidebar_banks_single_false{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   background-color: #373E40;
+
+
+}
+.Sidebar_banks_single_false > .MuiSvgIcon-root:hover{
+ cursor: pointer;
+  border-radius: 99px;
+  background-color: #ECBA82;
+ color: #373E40;
+
+
+
+}
+.Sidebar_banks_single_false > h3{
+
+  border: none;
+  color: #ECBA82;
+  border-color: #ECBA82; /*gold*/
+  border-width: 3px;
+  height: 5vh;
+  margin:0px;
+  font-size: 3vh;
+  padding-top: 1vh;
+  text-align: center;
+  width: 15vw;
+  overflow: hidden;
+  max-height: 4.5vh;
+
+
+}
+.Sidebar_banks_header{
+  display: flex;
+  justify-content: center;
+   align-items: center;
+
+
+}
+.Sidebar_banks_header > .MuiSvgIcon-root{
+ color: #ECBA82;
+
+
+
+}
+
+.Sidebar_banks_header > h3{
+
+  border: none;
+  color: #ECBA82;
+  border-color: #ECBA82; /*gold*/
+  border-width: 3px;
+  height: 5vh;
+  margin:0px;
+  font-size: 3vh;
+  padding-top: 1vh;
+  text-align: center;
+  width: 15vw;
+  overflow: hidden;
+  max-height: 4.5vh;
+
+
+}
+.Sidebar_banks_account_true{
+  margin-left: 2.5vw;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   border-left: solid;
+   border-bottom: solid;
+   border-width: 2px;
+   border-color: darkgrey;
+
+
+}
+.Sidebar_banks_account_true:hover{
+  margin-left: 2.5vw;
+  cursor: pointer;
+  background-color: darkgrey;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+   border-left: solid;
+   border-bottom: solid;
+   border-width: 2px;
+   border-color: grey;
+
+
+}
+.Sidebar_banks_account_false{
+  display: none;
+
+
+}
+.Sidebar_banks_account_true > h3{
+
+  border: none;
+  color:darkgrey;
+  border-color: #ECBA82; /*gold*/
+  border-width: 3px;
+  height: 5vh;
+  margin:0px;
+  font-size: 2.6vh;
+  padding-top: 1vh;
+  text-align: center;
+  width: 8.2vw;
+  overflow: hidden;
+  max-height: 4.2vh;
+
+
+}
+.Sidebar_banks_account_true:hover > h3{
+
+  border: none;
+  color: grey;
+  border-color: #ECBA82; /*gold*/
+  border-width: 3px;
+  height: 5vh;
+  margin:0px;
+  font-size: 2.6vh;
+  padding-top: 1vh;
+  text-align: center;
+  width: 8.2vw;
+  overflow: hidden;
+  max-height: 4.2vh;
+
+
+}
+
+
+.Sidebar_banks_seperator{
+      height: 1px;
+      border: none;
+      background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #ECBA82));
+
+}
+.Sidebar_banks_add{
+  border: none;
+  color: #ECBA82;
+
+  height: 5vh;
+  margin:0px;
+  font-size: 3vh;
+  padding-top: 1vh;
+  text-align: center;
+
+}
+.Sidebar_banks_add:hover{
+  border: none;
+  cursor:pointer;
+  color: #204E4A;
+  background-color: #ECBA82;
+  height: 5vh;
+  margin:0px;
+  font-size: 3vh;
+  padding-top: 1vh;
+  text-align: center;
+
+}

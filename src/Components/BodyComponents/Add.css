@@ -1,0 +1,8 @@
+.body_dia_errortrue > p{
+  margin:0px;
+  color: red;
+  margin-left: 1vw;
+}
+.body_dia_errorfalse > p{
+display: none;
+}

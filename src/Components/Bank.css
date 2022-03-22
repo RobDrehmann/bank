@@ -1,0 +1,9 @@
+.body_account_Transactions_addtrue > p{
+  margin:0px;
+  color: red;
+  margin-left: 1vw;
+  text-align: left;
+}
+.body_account_Transactions_addfalse > p{
+display: none;
+}

@@ -1,0 +1,566 @@
+.body_account_Info{
+  width: 22vw;
+}
+.body_account_Info > .MuiPaper-root{
+
+  overflow: hidden;
+  border-top: none;
+  border-width: 1px;
+  color: #ECBA82;
+text-align: center;
+    margin-bottom: 2vw;
+    margin-left: 1vw;
+
+    background-color:#373E40;
+    height: 15vh;
+    width: 22vw;
+}
+.body_account_Info > .MuiPaper-root > h3{
+  padding: 0px;
+margin: 0px;
+
+font-size: 1vw;
+
+}
+.body_account_Info_all_bottom{
+  align-items: center;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  justify-content: center;
+  display: flex;
+
+}
+.body_account_Info_all_bottom > h2{
+  margin: 0px;
+
+  padding: 0px;
+  font-size: 3vw;
+
+}
+.body_account_Info_all_top{
+  background-color: #ECBA82;
+  color: #373E40;
+  height: 5vh;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.body_account_full{
+  display: flex;
+}
+.body_account_Transactions{
+  width: 55vw;
+  margin-left: 3vw;
+}
+.body_account_Transactions > .MuiPaper-root > p{
+  margin: 0px;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 1.5vh;
+
+  padding-left: 1vw;
+}
+.body_account_Transactions_add{
+display: flex;
+}
+
+.body_account_Transactions_actions{
+  margin-top: 2vh;
+}
+.body_account_Transactions_add > p{
+  color: grey;
+}
+.body_account_Transactions_actions > .MuiPaper-root{
+  height: 45vh;
+  background-color: #373E40;
+  color: #ECBA82;
+}
+.body_account_Transactions_actions > .MuiPaper-root > p{
+  margin: 0px;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 1.5vh;
+
+  padding-left: 1vw;
+}
+.body_seperator{
+      height: 1px;
+      border: none;
+      background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, grey));
+
+}
+.body_account_home{
+  display: flex;
+}
+.body_account_home > .MuiPaper-root:hover {
+  cursor: pointer;
+}
+.body_account_home > .MuiPaper-root {
+  color: #ECBA82;
+  align-items: center;
+  width: 40vw;
+  height: 40vh;
+  background-color: #373E40;
+  justify-content: center;
+  margin-top: 1vw;
+  margin-left: .5vw;
+  margin-right: .5vw;
+}
+.body_account_home > .MuiPaper-root > .MuiSvgIcon-root{
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  color: #ECBA82;
+  width: 30vw;
+  height: 30vh;
+}
+.MuiDialogTitle-root{
+  color: #373E40;
+  background-color:  #ECBA82;
+}
+.MuiDialogContent-root{
+  width: 30vw;
+  background-color:  #373E40;
+  color:  #ECBA82;
+}
+.MuiDialogActions-root{
+    background-color:  #ECBA82;
+
+}
+.body_account_Info_all_topme{
+
+    background-color: red;
+    color: #373E40;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.body_account_Info_all_bottomme{
+  color: red;
+  align-items: center;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  justify-content: center;
+  display: flex;
+
+}
+.body_account_Info_all_bottomme > h2{
+  margin: 0px;
+
+  padding: 0px;
+  font-size: 3vw;
+
+}
+.body_account_Info_all_topmi{
+
+    background-color: green;
+    color: #373E40;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.body_account_Info_all_bottommi{
+  color: green;
+  align-items: center;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  justify-content: center;
+  display: flex;
+
+}
+.body_account_Info_all_bottommi > h2{
+  margin: 0px;
+
+  padding: 0px;
+  font-size: 3vw;
+
+}
+.body_account_Info_all_topms{
+
+    background-color: lightblue;
+    color: #373E40;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.body_account_Info_all_bottomms{
+  color: lightblue;
+  align-items: center;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  justify-content: center;
+  display: flex;
+
+}
+.body_account_Info_all_bottomms > h2{
+  margin: 0px;
+
+  padding: 0px;
+  font-size: 3vw;
+
+}
+.body_account_chart > .MuiPaper-root{
+
+  overflow: scroll;
+  border-top: none;
+  border-width: 1px;
+  border-color: #ECBA82;
+  margin-top: 0px;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+    padding-bottom: 1vh;
+    background-color:  #ECBA82;
+    height: 85vh;
+    width: 81vw;
+display: flex;
+
+    justify-content: center;
+}
+.body_account_chart_dn > h1{
+  margin: 0px;
+  color: #204E4A;
+  font-size: 3vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.body_account_chart_dn{
+
+
+}
+.body_account_charts{
+  display: flex;
+}
+.body_account_charts_chart{
+  width: 40vw;
+  height: 40vh;
+
+}
+/* jsebfksbjksbkcnekfnkwnsfknwekafnkwnfknwkfnkw
+fwffawf awfjkw ajfnkjwbfwnkf
+warningbregbhjebgjbejrbgjebjgbehjbgjrebhj */
+.money{
+  margin-left: 3vw;
+  display:flex;
+}
+
+
+.body_account > .MuiPaper-root{
+
+  overflow: hidden;
+  border-top: none;
+  border-width: 1px;
+  border-color: #ECBA82;
+  margin-top: 0px;
+    margin-bottom: 1vw;
+    margin-left: 1vw;
+    padding-bottom: 1vh;
+    background-color: #204E4A;
+    height: 85vh;
+    width: 81vw;
+}
+
+.MuiPaper-root > h1{
+  margin: 0px;
+  color: #ECBA82;
+  font-size: 3vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+.body_dia{
+  display: flex;
+  flex-direction: column;
+
+}
+
+/*
+.MuiPaper-root > h3{
+  color: #ECBA82;
+  font-size: 1.5vw;
+}
+*/
+.body_tabs:hover{
+  cursor: pointer;
+}
+.body_tabs{
+  margin-left: 2vw;
+}
+.body_account_action{
+  overflow: scroll;
+  height: 44vh;
+}
+.body_account_actions{
+  border-radius: 7px;
+  padding-left: 2vw;
+    padding-right: 2vw;
+  align-items: center;
+  width: 71vw;
+  margin-left: 1.5vw;
+  height: 5vh;
+  background-color: darkgrey;
+  color: grey;
+  border-bottom: solid;
+  border-color: grey;
+  border-width: 1.75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body_account_actions > h4{
+  border-radius: 7px;
+  width: 5vw;
+  margin: 0px;
+  font-size: 1.5vw;
+
+}
+.body_account_actions > h5{
+  color: green;
+  margin: 0px;
+  font-size: 1.5vw;
+}
+.body_tabs_tab > h4{
+
+  border:none;
+  border-width: 1px;
+
+  border-color: #ECBA82;
+ height: 3.5vh;
+  margin-right: 1vw;
+  margin-top: 1vh;
+  border-bottom: none;
+  width: 5vw;
+  padding-left: 3vw;
+text-align: left;
+margin-bottom: -.07rem;
+background-color: #204E4A;
+}
+.body_tabs_tab2 > h4{
+
+
+ height: 3.5vh;
+  margin-right: 1vw;
+  margin-top: 1vh;
+
+  width: 5vw;
+  padding-left: 3vw;
+text-align: left;
+margin-bottom: -.07rem;
+background-color: #ECBA82;
+}
+.body_tabs{
+  display: flex;
+}
+.custon-select{
+  text-align: center;
+  align-items: center;
+
+}
+.body_account_actions_form > form{
+  position: fixed;
+  border-radius: 7px;
+  padding-left: 1vw;
+  padding-right: .25vw;
+  align-items: center;
+  width: 73.75vw;
+  margin-left: 0px;
+  height: 5.2vh;
+margin-bottom: 1vh;
+  background-color: grey;
+  color: darkgrey;
+
+  border-width: 1.75px;
+  display: flex;
+  justify-content: space-between;
+}
+.body_account_actions_form{
+  border-radius: 7px;
+
+
+  align-items: center;
+  width: 71vw;
+  margin-left: 1.5vw;
+  height: 5vh;
+  background-color:transparent;
+  color: grey;
+
+  border-width: 1.75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-select > select{
+
+
+  margin-right: 1vw;
+  border: solid;
+  border-color: darkgrey;
+  border-width: 1.5px;
+  background-color: transparent;
+  border-radius: 7px;
+  font-size: 1.5vw;
+  width: 12vw;
+  font-weight: bold;
+  color: darkgrey;
+
+}
+.money{align-items: center;}
+.money > input{
+
+  border: solid;
+  border-color: darkgrey;
+  border-width: 1.5px;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 7px;
+  font-size: 1.5vw;
+  width: 7vw;
+  font-weight: bold;
+  color: darkgrey;
+
+}
+.money_onoff{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.money_onoff > button{
+  background-color: #204E4A;
+  border: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  margin-left: .2vw;
+  margin-top: 0px;
+  margin-bottom: .2vh;
+
+  color: #ECBA82;
+  border-color:#ECBA82;
+
+}
+.custom-select > button{
+  background-color: #204E4A;
+border: solid;
+border-width: 1px;
+border-radius: 7px;
+font-size: 1vw;
+margin-top: 0px;
+height: 4vh;
+width: 5vw;
+color: #ECBA82;
+border-color:#ECBA82;
+}
+.custom-select > button:hover{
+cursor: pointer;
+  background-color: #ECBA82;
+border: solid;
+border-width: 1px;
+border-radius: 7px;
+font-size: 1vw;
+margin-top: 0px;
+height: 4vh;
+width: 5vw;
+color: #204E4A;
+border-color:#204E4A;
+
+
+}
+.body_account_banks:hover{
+  width: 22vw;
+  cursor: pointer;
+  height: 26vh;
+}
+.body_account_banks{
+  border-radius: 7px;
+  padding-left: 2vw;
+    padding-right: 2vw;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  align-items: center;
+  width: 21vw;
+  height: 25vh;
+  background-color: darkgrey;
+  color: grey;
+  border-bottom: solid;
+  border-color: grey;
+  border-width: 1.75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.body_account_banks > h4{
+  border-radius: 7px;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px;
+  font-size: 1.5vw;
+
+}
+.body_account_banks > h5{
+  color: green;
+  margin: 0px;
+  font-size: 2.5vw;
+}
+.body_account_bank{
+  margin-bottom: 1vh;
+  width: 78vw;
+  overflow: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+.custom-select_addbank > select{
+
+  padding-left: 1vw;
+  margin-right: 1vw;
+  border: solid;
+  border-color: darkgrey;
+  border-width: 1.5px;
+  background-color: grey;
+  border-radius: 7px;
+  font-size: 1.5vw;
+  width: 25vw;
+  font-weight: bold;
+  color: white;
+
+}
+.custom-select_addbank > input{
+
+  border: solid;
+  border-color: darkgrey;
+  border-width: 1.5px;
+  text-align: left;
+  padding-left: 1vw;
+  background-color: grey;
+  border-radius: 7px;
+  font-size: 1.5vw;
+  width: 70vw;
+  font-weight: bold;
+  color: white;
+
+}
+.custom-select_addbank{
+  text-align: left;
+  padding-left: 4vw;
+}
+.custom-select_addbank > button{
+
+    background-color: #ECBA82;
+  border: solid;
+  border-width: 1px;
+  border-radius: 7px;
+  font-size: 1.5vw;
+  margin-top: 2vh;
+  height: 5vh;
+  width: 10vw;
+  color: #204E4A;
+  border-color:#204E4A;
+}
+.custom-select_addbank > h5{
+  padding-bottom: 2vh;
+  padding-left: 2vw;
+  padding-top: 2vh;
+  color: #ECBA82;
+  margin: 0px;
+  font-size: 2.5vw;
+}
